@@ -1,4 +1,4 @@
-import './App.css';
+
 import Navbar from './Navbar';
 import Home from './Home';
 
@@ -11,8 +11,7 @@ function App() {
       <Navbar/>
       <div className="content">
         <Home/>
-        <p>Total likes {likes} times</p>
-        <a href={link}>Google <link rel="stylesheet" href="" /></a>
+      
       </div>
     </div>
   );
